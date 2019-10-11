@@ -9,7 +9,84 @@
 		}
 		ul{
 			list-style: square;
+        	}
+		body{
+            font-family: "trebuchet ms", tahoma, verdana;
+            margin-left: 10%;
+            margin-right: 10%;
+            border: 1px solid gray;
+            padding-left: 1em;
+            padding-right: 1em;
+            line-height: 1.2em;
         }
+        .floatleft{
+    float:left;
+}
+
+
+.floatright {
+    float: right;
+}
+        h1{
+            background-color:lightgray;
+            padding-bottom: .3em;
+            padding-top: .3em;
+            text-align: center;
+        }
+        h3.persona{
+            border: 5px solid teal;
+        }
+         p{
+            display:inline;
+        }
+        li{
+            padding: .6em;
+        }
+        img{
+            width:200px;
+            height:300px
+        }
+       
+        header{
+            position: sticky;
+            top: 0;
+        }
+        
+        /* navbar container */
+        ul.topnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #339999;
+        }
+        ul.topnav li{
+            float: left;
+        }
+        /* Navbar links */
+        ul.topnav li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        ul.topnav li a:hover {
+            background-color: #339999;
+            color: black;
+        }
+
+        ul.topnav li a.active {background: white; color:#339999;
+        }
+        ul.topnav li.right {float: right;}
+
+        @media screen and (max-width: 600px) {
+            ul.topnav li.right, 
+            ul.topnav li {float: none;}
+        }
+	
+		
 	</style>
 	<title>620 Project</title>
 </head>
@@ -100,6 +177,7 @@
 	
 	<h2>Covenants</h2>		
 		<p><a href="GroupContract.pdf">Group Contract</a></p>
+	<h2>Personas</h2>
 		
 </body>
 </html>
